@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .outer {
+        height:150px;
+        width:150px;
+        background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+        position:relative;
+        border-radius: 35px;
+
+      }
+      .inner {
+        position:absolute;
+        height:140px;
+        width:140px;
+        border-radius: 32px;
+        margin-top: 5px;
+        margin-left: 5px;
+      
+
+        background:white;
+        
+      }
+      .square {
+        position:absolute;
+        margin:10px 10px;
+        border-radius: 22px;
+        height:120px;
+        width:120px;
+        background:radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+      }
+      .circle {
+        position:absolute;
+        height:14px;
+        width:14px;
+        border-radius: 50px;
+        background-color: white;
+        top:18px;
+        right:20px;
+      }
+      .circle2 {
+        padding:0px;
+        position:absolute;
+        height:45px;
+        width:45px;
+        border-radius: 50%;
+
+        border:10px solid white;
+        /* top:38px;
+        right:38px; */
+        margin:37.5px 37.5px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="inner">   
+        <div class="square"> </div>
+        <div class="circle"> </div>
+        <div class="circle2"> 
+            <div class="circle3"> </div>
+        </div>
+       
+
+      </div>
+      
+    </div>
+  </body>
+</html>
